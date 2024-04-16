@@ -16,8 +16,16 @@
     }
 }
 
-.center-header {
-    text-align: center;
+.navbar-bg {
+    background-color: #F9F7F7;
+}
+
+.navbar-text {
+    color: #112D4E;
+}
+
+.section-header {
+    padding-top: 70px;
 }
 
 .profile-img-div {
@@ -29,9 +37,31 @@
 .profile-img {
     height: 250px;
     border-radius: 50%;
+    border: 1px solid #112D4E;
 }
 
-.profile-desc-div {
+.project-card {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.project-icon {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid #112D4E;
+    background-color: #DBE2EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-button, .contact-button {
+    background-color: #3F72AF;
+    border-color: #112D4E;
+    border-radius: 5px;
+    color: #F9F7F7;
 }

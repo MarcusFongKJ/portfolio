@@ -12,64 +12,91 @@
 
 <body>
     <!-- Header -->
-    <section id="header">       
-        <header class="py-3">
-            <nav class="navbar fixed-top navbar-light bg-light">
-                <div class="container">
-                    <span class="fs-4"><span style="font-weight: bold;">Marcus</span> Fong Kang Jie</span>
-                    <ul class="nav nav-pills">
-                        <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+    <section id="header">
+        <nav class="navbar fixed-top navbar-light bg-light">
+            <div class="container">
+                <span class="fs-4"><span style="font-weight: bold;">Marcus</span> Fong Kang Jie</span>
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </section>
 
     <!-- About Me -->
-    <section class="about">
-        <div class="container">
-            <h2 class="my-5 display-5 center-header">About Me</h2>
+    <section id="about">
+        <div class="container py-3 border-bottom">
+            <h2 class="pb-3 display-5 text-center section-header">About Me</h2>
             <div class="row">
                 <div class="col-lg-4 col-sm-12 py-3 profile-img-div">
                     <img src="./images/profile-picture.jpeg" alt="profile-picture" class="profile-img">
                 </div>
-                <div class="col-lg-8 col-sm-12 profile-desc-div">
+                <div class="col-lg-8 col-sm-12 d-flex align-items-center">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor quam et massa tempus, nec maximus elit varius. Vivamus id euismod lacus, vitae consectetur metus.
                 </div>
             </div>
-            <hr>
+        </div>
+    </section>
+   
+    
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container py-3 border-bottom">
+            <h2 class="pb-3 display-5 text-center section-header">Projects</h2>
+            <div class="row">
+                <div class="col-lg-4 pb-3 project-card">
+                  <div class="project-icon">
+                    <img src="./images/rock-paper-scissors-icon.png" alt="icon for rock paper scissors" width="120">
+                  </div>
+                  <h2 class="fw-normal pt-2">Rock-Paper-Scissors</h2>
+                  <p>Simple Rock-Paper-Scissors game using HTML and Javascript. First to 5 wins!</p>
+                  <p><a class="btn project-button" href="https://marcusfongkj.github.io/rock-paper-scissors/">Play »</a></p>
+                </div>
+
+                <div class="col-lg-4 pb-3 project-card">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                  <h2 class="fw-normal pt-2">Heading</h2>
+                  <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+                  <p><a class="btn project-button" href="#">View »</a></p>
+                </div>
+
+                <div class="col-lg-4 pb-3 project-card">
+                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+                  <h2 class="fw-normal pt-2">Heading</h2>
+                  <p>And lastly this, the third column of representative placeholder content.</p>
+                  <p><a class="btn project-button" href="#">View »</a></p>
+                </div>
+              </div>
         </div>
     </section>
 
-    <!-- Projects -->
-    <section id="projects">
-        <div class="container">
-            <h2 class="my-5 display-5 center-header">Projects</h2>
-            <div class="row">
-                <div class="col-lg-4">
-                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                  <h2 class="fw-normal">Heading</h2>
-                  <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-                  <p><a class="btn btn-secondary" href="#">View details »</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                  <h2 class="fw-normal">Heading</h2>
-                  <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-                  <p><a class="btn btn-secondary" href="#">View details »</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                  <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                  <h2 class="fw-normal">Heading</h2>
-                  <p>And lastly this, the third column of representative placeholder content.</p>
-                  <p><a class="btn btn-secondary" href="#">View details »</a></p>
-                </div><!-- /.col-lg-4 -->
-              </div>
 
-            <a href="https://marcusfongkj.github.io/rock-paper-scissors/">Rock-Paper-Scissors Game</a>
-        </div>
+    <!-- Contact -->
+    <section id="contact">
+        <div class="px-4 py-3 text-center">
+            <h2 class="pb-3 display-5 text-center section-header">Get In Touch</h2>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor quam et massa tempus, nec maximus elit varius. Vivamus id euismod lacus, vitae consectetur metus.</p>
+              <div class="d-flex d-sm-flex justify-content-sm-center mb-5">
+                <button type="button" class="contact-button px-4 py-2 me-sm-3">Contact Me!</button>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4 border-top">
+              <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
+                <li class="ms-3"><a class="text-body-secondary" href="https://github.com/MarcusFongKJ"><img src="./images/github.svg" alt="GitHub icon" width="24" height="24"></a></li>
+                <li class="ms-3"><a class="text-body-secondary" href="#\www.linkedin.com/in/marcusfongkangjie"><img src="./images/linkedin.svg" alt="LinkedIn icon" width="24" height="24"></a></li>
+              </ul>
+            </footer>
+          </div>
     </section>
     
 </body>
